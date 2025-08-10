@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .inder-regular {
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
+
+
+:root {
+
+    font-size: 62.5%;
+
+    /* Blue */
+
+    --Blue-Light: #e7fcff;
+
+    --Blue-Light-hover: #dbfafe;
+
+    --Blue-Light-active: #b5f5fd;
+
+    --Blue-Normal: #0fe0fa;
+
+    --Blue-Normal-hover: #0ecae1;
+
+    --Blue-Normal-active: #0cb3c8;
+
+    --Blue-Dark: #0ba8bc;
+
+    --Blue-Dark-hover: #098696;
+
+    --Blue-Dark-active: #076570;
+
+    --Blue-Darker: #054e58;
+
+
+
+    /* Purple */
+
+    --Purple-Light: #f2f3fc;
+
+    --Purple-Light-hover: #ecedfb;
+
+    --Purple-Light-active: #d8daf7;
+
+    --Purple-Normal: #8189e5;
+
+    --Purple-Normal-hover: #747bce;
+
+    --Purple-Normal-active: #676eb7;
+
+    --Purple-Dark: #6167ac;
+
+    --Purple-Dark-hover: #4d5289;
+
+    --Purple-Dark-active: #3a3e67;
+
+    --Purple-Darker: #2d3050;
+
+
+
+    /* Pink */
+
+    --Pink-Light: #fdebfa;
+
+    --Pink-Light-hover: #fce1f8;
+
+    --Pink-Light-active: #fac2f0;
+
+    --Pink-Normal: #ee39cf;
+
+    --Pink-Normal-hover: #d633ba;
+
+    --Pink-Normal-active: #be2ea6;
+
+    --Pink-Dark: #b32b9b;
+
+    --Pink-Dark-hover: #8f227c;
+
+    --Pink-Dark-active: #6b1a5d;
+
+    --Pink-Darker: #531448;
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url('./assets/imagemDeFundo.png');
+    background-size: cover;
+    /* Faz a imagem cobrir todo o fundo */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    height: 400px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.semOLogo {
+    display: flex;
+    justify-content: center;
+    background: var(--Blue-Dark);
+    gap: 2rem;
+    padding-left: 13rem;
+    padding-block: .5rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    width: 120rem;
+}
+
+li {
+    list-style-type: none;
+    background: var(--Pink-Normal-hover);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 7rem;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    button {
+        background: var(--Blue-Dark);
+        border: none;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+.TabelaPeriodica button {
+    width: 10rem !important;
+    height: 10rem;
+}
+
+.TabelaPeriodica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.substancias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.ligacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.imagem {
+    width: 5rem;
+}
