@@ -138,24 +138,26 @@ li {
     }
 }
 
-.titulo{
+.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .principal {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
+
     button {
         background: var(--Blue-Dark);
         border: none;
@@ -175,6 +177,11 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
+    gap: 1.5rem;
+
+    .imagem {
+        margin-bottom: -1rem;
+    }
 }
 
 .substancias {
@@ -182,6 +189,13 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+
+    .imagem {
+        margin-bottom: -1.8rem;
+        width: 6.8rem;
+    }
 }
 
 .ligacoes {
@@ -189,8 +203,13 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
+    gap: 1.5rem;
+    .imagem {
+        margin-bottom: -1.1rem;
+    }
 }
 
 .imagem {
     width: 5rem;
+    margin-left: 2.2rem;
 }
