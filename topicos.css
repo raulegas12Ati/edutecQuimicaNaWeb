@@ -97,24 +97,27 @@ body {
     color: #fff;
     background-image: url('./assets/imagemDeFundo.png');
     background-size: cover;
-    /* Faz a imagem cobrir todo o fundo */
     background-position: center;
-    /* Centraliza a imagem */
     background-repeat: no-repeat;
-    /* Evita repetição da imagem */
-    height: 400px;
-
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    width: 100%;
+    background: var(--Blue-Dark);
+    text-align: right;
+    margin-bottom: auto;
 }
 
 .semOLogo {
     display: flex;
     justify-content: center;
-    background: var(--Blue-Dark);
     gap: 2rem;
     padding-left: 13rem;
     padding-block: .5rem;
@@ -146,6 +149,7 @@ li {
     margin-top: 2.5rem;
 }
 
+
 main {
     display: flex;
     align-items: center;
@@ -168,7 +172,7 @@ main {
 }
 
 .TabelaPeriodica button {
-    width: 10rem !important;
+    width: 10rem;
     height: 10rem;
 }
 
@@ -204,6 +208,7 @@ main {
     justify-content: center;
     margin-top: 2rem;
     gap: 1.5rem;
+
     .imagem {
         margin-bottom: -1.1rem;
     }
