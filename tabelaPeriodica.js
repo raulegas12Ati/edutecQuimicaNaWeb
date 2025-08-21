@@ -29,4 +29,10 @@ function adicionainformacoes() {
 function removeClassDetales() {
     let divElemento = document.querySelector(".elemento")
     divElemento.classList.remove("detales")
+    
+    const nomeElemento = divElemento.querySelector(".nomeElemento");
+    const dados = divElemento.querySelector(".dados");
+
+    if (nomeElemento) divElemento.removeChild(nomeElemento);
+    if (dados) divElemento.removeChild(dados);
 }
