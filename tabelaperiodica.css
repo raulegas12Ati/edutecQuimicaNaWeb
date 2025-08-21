@@ -165,3 +165,34 @@ main {
     }
 
 }
+
+.detales{
+    background: #008000;
+    height: 15rem;
+    width: 15rem;
+    border-radius: .2rem;
+    padding: .5rem;
+
+    .simbuloAtomico{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.8rem;
+    }
+
+    .nomeElemento{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .numeroAtomico{
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .dados{
+        gap: 1rem;
+    }
+}
